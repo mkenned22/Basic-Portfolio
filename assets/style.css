@@ -126,6 +126,10 @@ aside {
     margin: 20px;
 }
 
+p {
+    line-height: 25px;
+}
+
 footer {
     clear: both;
     overflow: auto;
@@ -139,6 +143,3 @@ footer {
     border-top: 5px solid #4aaaa5;
 }
 
-p {
-    line-height: 25px;
-}
