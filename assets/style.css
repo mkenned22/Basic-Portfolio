@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    background-image: url("../images/dust_scratches.png");
+    background-color: #cccccc;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0px;
+}
+
+section {
+    max-width: 960px;
+    margin-left: 75px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #4aaaa5;
+    margin-left: 100px;
+    padding: 22px;
+    width: 250px;
+    text-align: center;
+}
+
+#name {
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    background-color: #4aaaa5;
+    margin-left: 75px;
+    padding: 25px;
+    text-align: center;
+
+}
+
+#about {
+    float: left;
+    margin-left: 525px;
+    padding: 18px;
+    color: #777777;
+    
+}
+    
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 2px solid lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 75px;
+}
+
+#main {
+    clear: both;
+    float: left;
+    padding: 10px;
+    width: 600px;
+    background-color: #ffffff;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#sidebar {
+    padding: 10px;
+    float: left;    
+    width: 300px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    margin-top: 30px
+}
+
+#connectWithMe {
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    margin-top: 20px;
+    background-color: #666666;
+    color: lightgrey;
+    border-top: 5px solid #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    height: 75px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.footerline {
+    
+    height: 10px;
+
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border: 1px solid grey;
+    border-radius: 100px;
+    background-image: url('http://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Ski_trail_rating_symbol-blue_square.svg/600px-Ski_trail_rating_symbol-blue_square.svg.png');
+    background-size: contain;
+    float: left;
+    margin: 20px;   
+}
+
+.logos {
+    width: 90px;
+    height: 90px;
+}
+
+
+
+
+
