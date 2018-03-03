@@ -1,47 +1,66 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <title>About Me</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/reset.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
+    <link rel="icon" href="images/favicon.png">
     <!--  To be added later: <script src="main.js"></script>-->
 </head>
+
 <body>
     <!-- Create main header -->
     <header>
-        <div id="name"><strong>Mike Kennedy</strong></div>
-        <!-- Create nav element for links to different pages-->
-        <nav id="about"> 
-            <a href="index.html">About</a> |
-            <a href="portfolio.html">Portfolio</a> |
-            <a href="contact.html">Contact</a>
-        </nav>
+        <div class="header960">
+            <div class="name">
+                <strong>Mike Kennedy</strong>
+            </div>
+            <!-- Create nav element for links to different pages-->
+            <nav>
+                <a href="index.html">About</a> |
+                <a href="portfolio.html">Portfolio</a> |
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
-    
+
     <!-- Create main section for content -->
-    <section id="content">
-        <div id="main">
+    <section>
+        <div class="main">
             <h2>About Me</h2>
             <hr>
-            <img class="circle" src="images/profilepicture.png">
-            <p>Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike.</p>
+            <!-- Add profile picture -->
+            <img id="picture" src="images/profilepicture.png">
+            <!-- Add bio -->
+            <p>Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
+                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
+                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
+                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
+                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
+                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
+                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
+                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
+                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
+                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike.</p>
         </div>
-    <!-- Create side bar -->
-        <div id="sidebar">
+        <!-- Create side bar -->
+        <aside>
             <h2 id="connectWithMe">Connect with Me</h2>
             <hr>
-                <a href="https://www.linkedin.com/in/mkenned22/"><img class="logos" src="images/linkedin-logo-circle.png"></a>
-                <a href="https://stackoverflow.com/users/9248959/mike-kennedy?tab=profile"><img class="logos" src="images/stackoverflow-logo-circle.png"></a>
-                <a href="https://github.com/mkenned22"><img class="logos" src="images/github-logo-circle.png"></a>
-        </div>
-    </section>  
+            <!-- Add image links to my various profiles -->
+            <a href="https://www.linkedin.com/in/mkenned22/"><img class="logos" src="images/linkedin-logo-circle.png"></a>
+            <a href="https://stackoverflow.com/users/9248959/mike-kennedy?tab=profile"><img class="logos" src="images/stackoverflow-logo-circle.png"></a>
+            <a href="https://github.com/mkenned22"><img class="logos" src="images/github-logo-circle.png"></a>
+        </aside>
+    </section>
 
     <!-- Create footer -->
     <footer class="footer">
         <p>&#169 Copyright 2018 Mike Kennedy</p>
     </footer>
 
-
-    
 </body>
+
 </html>
