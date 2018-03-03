@@ -19,9 +19,11 @@
             </div>
             <!-- Create nav element for links to different pages-->
             <nav>
-                <a href="index.html">About</a> |
-                <a href="portfolio.html">Portfolio</a> |
-                <a href="contact.html">Contact</a>
+                <ul>
+                    <li><a class="active" href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
             </nav>
         </div>
     </header>
@@ -32,16 +34,16 @@
             <h2>Contact</h2>
             <hr>
             <!-- Create contact sheet -->
-            <p>Name</p>
-            <p><input type="text" size="92" name="Name" value="John Smith"><br></p>
-            <br>
-            <p>Email</p>
-            <p><input type="email" size="92"  name="Email" value="example@gmail.com"><br></p>
-            <br>
-            <p>Message</p>
-            <p><textarea name="Message" cols="90" rows="5"></textarea></p>
-            <br>
-            <button>Submit</button>
+            <form action="mailto:mkenned22@gmail.com" method="post" enctype="text/plain">
+                Name:<br>
+                <input type="text" name="name"><br>
+                E-mail:<br>
+                <input type="text" name="mail"><br>
+                Comment:<br>
+                <input type="text" name="comment" size="50"><br><br>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </form>
         </div>
         <!-- Create side bar -->
         <aside>
