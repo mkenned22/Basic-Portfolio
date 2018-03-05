@@ -4,10 +4,16 @@
 <head>
     <meta charset="utf-8" />
     <title>About Me</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/reset.css"/>
+    <!-- CSS Reset -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/reset.css" />
+    <!-- Main CSS  -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
+    <!-- Initially setting the light CSS -->
+    <link rel="stylesheet" id="style" type="text/css" media="screen" href="assets/light-style.css" />
+    <!-- Adding tab icon -->
     <link rel="icon" href="images/favicon.png">
-    <!--  To be added later: <script src="main.js"></script>-->
+    <!-- Adding link to main.js for toggle function -->
+    <script src="assets/main.js"></script>
 </head>
 
 <body>
@@ -25,6 +31,8 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
+            <!-- Create toggle switch -->
+            <input type="checkbox" id="switch" /><label for="switch" onclick="toggle()">Toggle</label>
         </div>
     </header>
 
@@ -36,61 +44,30 @@
             <!-- Add profile picture -->
             <img id="picture" src="images/profilepicture.png">
             <!-- Add bio -->
-            <p>Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi,
-                my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike. Hi, my name is Mike.</p>
+            <p>Eager and motivated young professional with a results-oriented mentality. I receive great satisfaction in completing
+                challenging tasks. With a strong background in engineering, I have learned to leverage problem solving skills
+                when addressing issues. In addition, I have become an efficient project manager and planner as a result of
+                the many leadership roles I have held in the past. While my previous experiences have undoubtedly helped
+                me acquire a variety of skills, I believe that life will continue to evolve at an exponential pace. Therefore,
+                I feel strongly that personal and educational growth must be a continuous goal. With this mindset, every
+                moment becomes an opportunity for me to learn something new, develop new skills, and work towards becoming
+                a subject matter expert.</p>
         </div>
         <!-- Create side bar -->
         <aside>
-            <h2 id="connectWithMe">Connect with Me</h2>
+            <h2>Connect with Me</h2>
             <hr>
             <!-- Add image links to my various profiles -->
-            <a href="https://www.linkedin.com/in/mkenned22/"><img class="logos" src="images/linkedin-logo-circle.png"></a>
-            <a href="https://stackoverflow.com/users/9248959/mike-kennedy?tab=profile"><img class="logos" src="images/stackoverflow-logo-circle.png"></a>
-            <a href="https://github.com/mkenned22"><img class="logos" src="images/github-logo-circle.png"></a>
+            <a href="https://www.linkedin.com/in/mkenned22/"><img class="logos" src="images/linkedin.png"></a>
+            <a href="https://stackoverflow.com/users/9248959/mike-kennedy?tab=profile"><img class="logos" src="images/stackoverflow.png"></a>
+            <br>
+            <a href="https://github.com/mkenned22"><img class="logos" src="images/github.png"></a>
+            <a href="mailto:mkenned22@gmail.com?subject=ThisIsAwesome!"><img class="logos" src="images/gmail.png"></a>
         </aside>
     </section>
 
     <!-- Create footer -->
-    <footer class="footer">
+    <footer>
         <p>&#169 Copyright 2018 Mike Kennedy</p>
     </footer>
 
